@@ -1,0 +1,13 @@
+train: D:/cow.v1i.yolov12/train/images
+val: D:/cow.v1i.yolov12/valid/images
+test: D:/cow.v1i.yolov12/test/images
+
+nc: 3
+names: ['Brahman', 'Charolais', 'cow']
+
+roboflow:
+  workspace: soemsawat-saenkla
+  project: cow-ge2o4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/soemsawat-saenkla/cow-ge2o4/dataset/1
